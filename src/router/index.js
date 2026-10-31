@@ -8,7 +8,7 @@ const router = Router()
 
 router.use(validationData);
 
-router.use("/auth", auth)
+router.use("/auth" ,auth)
 router.use("/profile", profile)
 
 export default router
